@@ -59,3 +59,4 @@ print(type(name))  # <class 'int'>
 age = 47
 print(age)
 print(type(age))  # <class 'int'>
+# Alt shift E - execute selection
