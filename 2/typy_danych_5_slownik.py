@@ -63,3 +63,16 @@ odp = input("Podaj słówko do przetłumaczenia")
 print(dict_pol_ang.get(odp.replace(" ", "").lower(), "nie ma takiego słowka"))
 
 # aplikacja kalkulator
+# pobrac dwie liczby
+# wypisac wynik (np.: dodawanie)
+a = input("Podaj pierwszą liczbę")
+b = int(input("Podaj drugą liczbę"))
+print(float(a) + b)
+
+c = input("Podaj operacje")
+dzialanie = str(a) + c + str(b)
+print(dzialanie)
+print(eval(dzialanie))
+# 5-6
+# -1
+print(eval("3*30+15/45"))  # 90.33333333333333
