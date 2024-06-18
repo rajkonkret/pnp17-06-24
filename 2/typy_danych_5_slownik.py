@@ -48,11 +48,18 @@ dict_small.update([('y', 3), ('z', 4)])
 print(dict_small)  # {'x': 2, 'y': 3, 'z': 4}
 
 # input() - pobiera dane np.: od użytkownika
-tekst = input("Wpisz tekst")  # str()
-print(tekst)
+# tekst = input("Wpisz tekst")  # str()
+# print(tekst)
 
 # napisac program słownik pol-ang
 # zbior danych - w słowniku
 # wyswietlic klucze
 # pobrac  słowko od uzytkownika
 # wypisać tłumaczenie
+dict_pol_ang = {'kot': 'cat', 'pies': 'dog', 'jabłko': 'apple'}
+print(dict_pol_ang.keys())
+odp = input("Podaj słówko do przetłumaczenia")
+# print(dict_pol_ang[odp.replace(" ", "").lower()])
+print(dict_pol_ang.get(odp.replace(" ", "").lower(), "nie ma takiego słowka"))
+
+# aplikacja kalkulator
