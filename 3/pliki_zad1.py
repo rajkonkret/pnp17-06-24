@@ -28,6 +28,7 @@ with open('test.log', 'a', encoding='utf-8') as file:
     file.write("Dodane\n")
     file.write("Dodane\n")
     file.write("Dośdane\n")
+    file.write("Dośćąźdane\n")
 
 # odczyt z pliku
 with open('test.log', 'r', encoding='utf-8') as f:
