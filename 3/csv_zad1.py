@@ -34,6 +34,9 @@ dict_list = [
 
 filename_3 = 'records_3.csv'
 with open(filename_3, 'w', newline='') as f:
-    csvwriter = csv.DictWriter(f, fieldnames=fields)
+    csvwriter = csv.DictWriter(f, fieldnames=fields, delimiter=";")
     csvwriter.writeheader()
     csvwriter.writerows(dict_list)
+
+# newline ='' ominięcie problemu pustych linii
+# delimiter=";" - wskazanie znaku rozdziału danych
