@@ -31,3 +31,4 @@ while True:
 
 print(lista)  # ['222', '333', '1', '45', '66']
 print(lista_int)  # [222, 333, 1, 45, 66]
+# test
