@@ -13,7 +13,7 @@ def dodaj2():
 
 
 def dodaj3():
-    global a
+    global a  # print(f"Wartość a z góry wynosi {a}")  # Wartość a z góry wynosi 9
     a = 9  # a jest globalne, zmieni wartość globalnej zmiennej a
     b = 8
     print(a + b)
