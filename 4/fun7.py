@@ -28,3 +28,8 @@ all_args(1, 2, 3)  # (1, 2, 3) {}
 all_args(a=8, b=0)  # () {'a': 8, 'b': 0}
 all_args(1, 2, c=9)  # (1, 2) {'c': 9}
 # all_args(a=8,1,2)  # SyntaxError: positional argument follows keyword argument
+# Radek
+# () {}
+# (1, 2, 3) {}
+# () {'a': 8, 'b': 0}
+# (1, 2) {'c': 9}
