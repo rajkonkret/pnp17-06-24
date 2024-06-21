@@ -124,3 +124,7 @@ pip freeze > requirements.txt
 pip install -r .\requirements.txt
 
 pip list - zainstalowane pakiety
+
+pip install pyinstaller
+pyinstaller.exe --onefile --nonconsole .\okna_1.py
+na linuxie --windowed zamias --noconsole
