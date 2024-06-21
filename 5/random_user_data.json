@@ -1,0 +1,56 @@
+{
+    "gender": "female",
+    "name": {
+        "title": "Ms",
+        "first": "Lory",
+        "last": "Costa"
+    },
+    "location": {
+        "street": {
+            "number": 7328,
+            "name": "Rua Pernambuco "
+        },
+        "city": "Pelotas",
+        "state": "Alagoas",
+        "country": "Brazil",
+        "postcode": 50852,
+        "coordinates": {
+            "latitude": "-77.7926",
+            "longitude": "169.1499"
+        },
+        "timezone": {
+            "offset": "+7:00",
+            "description": "Bangkok, Hanoi, Jakarta"
+        }
+    },
+    "email": "lory.costa@example.com",
+    "login": {
+        "uuid": "92fdb8a1-7a22-475c-85ce-ca60b5509bd9",
+        "username": "tinypeacock705",
+        "password": "richards",
+        "salt": "OhjCvVGw",
+        "md5": "d1f057b9cf22fea850d9700b09a0e5c2",
+        "sha1": "c256677d179f15fb44209aa37019310a7e6ec16c",
+        "sha256": "da50acc128ff063669765bde6a3dcb51c2ccc4db1077a529aa7f654462af2bfd"
+    },
+    "dob": {
+        "date": "1968-02-21T05:24:33.556Z",
+        "age": 56
+    },
+    "registered": {
+        "date": "2003-02-05T08:12:28.844Z",
+        "age": 21
+    },
+    "phone": "(33) 0578-5659",
+    "cell": "(59) 9919-3721",
+    "id": {
+        "name": "CPF",
+        "value": "729.338.488-87"
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/women/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+    },
+    "nat": "BR"
+}

@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "دانیال",
+        "last": "گلشن"
+      },
+      "location": {
+        "street": {
+          "number": 8324,
+          "name": "آذربایجان"
+        },
+        "city": "کاشان",
+        "state": "یزد",
+        "country": "Iran",
+        "postcode": 60752,
+        "coordinates": {
+          "latitude": "15.0018",
+          "longitude": "-129.9581"
+        },
+        "timezone": {
+          "offset": "+3:30",
+          "description": "Tehran"
+        }
+      },
+      "email": "dnyl.glshn@example.com",
+      "login": {
+        "uuid": "5e9d0df9-92fc-4bf0-bcb3-f3050b12decd",
+        "username": "saddog949",
+        "password": "rupert",
+        "salt": "Lj9UR8b7",
+        "md5": "8e21ebbcdfe78de39efd8ca6d7ba1b13",
+        "sha1": "eb5a86225f3e57cdc6e9fc80e9dccf4d303832c7",
+        "sha256": "69748064ed9c3d524db8915e43e6cab15d61b0beb7938765a66b4c43eacdb786"
+      },
+      "dob": {
+        "date": "1958-09-04T09:50:57.089Z",
+        "age": 65
+      },
+      "registered": {
+        "date": "2002-05-04T07:14:25.464Z",
+        "age": 22
+      },
+      "phone": "007-01887869",
+      "cell": "0951-997-9396",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+      },
+      "nat": "IR"
+    }
+  ],
+  "info": {
+    "seed": "ca1b7de67c095ec1",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
