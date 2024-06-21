@@ -118,3 +118,9 @@ spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
 
 appimagehub.com
+python.exe .\okna_2.py
+
+pip freeze > requirements.txt
+pip install -r .\requirements.txt
+
+pip list - zainstalowane pakiety
