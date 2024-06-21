@@ -33,6 +33,7 @@ print(type(user))  # <class 'dict'>
 #              'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/61.jpg'}, 'nat': 'US'}
 with open('random_user_data.json', 'w') as f:
     json.dump(user, f, indent=4)
+
 print("Imię: ", user['name']['first'])
 print("Nazwisko: ", user['name']['last'])
 print(user['picture'])
